@@ -1,0 +1,29 @@
+This project looks at the weather recording stations data around Beijing it then uses various machine learning methods to predict PM2.5 concentrations.
+
+it does this by classifying them into four categories:
+
+<=35
+
+36-75
+
+76-150
+
+,>151
+
+Datasets:
+
+The normalised data was batched and windowed, then PCA batched data was created. The regular data was then extracted to numpy data there was a 70-20-10 split of training, validation and test data.
+
+Models:
+
+lstm_base: the baseline lstm model
+
+lstm_pca: a lstm model with pca
+
+lstm_deep: a deeper model with dropout layers
+
+rfp: a regular randomforest with default parameters
+
+rfh: random_forest with changed hyper-paramters
+
+lstm_final: a lstm with three performance investigations on the test data
