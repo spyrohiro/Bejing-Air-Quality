@@ -1,5 +1,5 @@
 This project looks at the weather recording stations data around Beijing it then uses various machine learning methods to predict PM2.5 concentrations. PM2.5 refers to particulate matter that is 2.5 micrometers or smaller in diameter.  These particles are a type of air pollution composed of tiny solid particles or liquid droplets suspended in the air.
-This topic is important because of its significant impact on both human health and the environment.
+Particulate Matter is important because of its significant impact on both human health and the environment.
 
 The following notebooks predict pm2.5 concetrations by classifying them into four categories:
 
