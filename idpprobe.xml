@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Reflection-probe SAML metadata.
+     Each field carries a unique marker (MARKER_*). Import this, then look at
+     what the app shows back after parsing. Any MARKER_* you see echoed tells
+     you that field is your read channel — drop captured/ internal content there. -->
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+                     xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui"
+                     entityID="https://MARKER_ENTITYID.example.com/idp">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <md:Extensions>
+      <mdui:UIInfo>
+        <mdui:DisplayName xml:lang="en">MARKER_DISPLAYNAME</mdui:DisplayName>
+        <mdui:Description xml:lang="en">MARKER_DESCRIPTION</mdui:Description>
+      </mdui:UIInfo>
+    </md:Extensions>
+
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAKL0UG+mRkSPMA0GCSqGSIb3DQEBCwUAMEUxCzAJBgNVBAYTAkFVMRMwEQYDVQQIDApTb21lLVN0YXRlMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMTkwNDAxMDAwMDAwWhcNMjkwNDAxMDAwMDAwWjBFMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwUYwP6V0J7vJ8kP0e3qXv0F9m0cJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8QIDAQABo1AwTjAdBgNVHQ4EFgQUhKs4Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8wHwYDVR0jBBgwFoAUhKs4Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAH8kP0e3qXv0F9m0cJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K5nF3xJ1pQ9k7vY2b1lM8K</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+                            Location="https://MARKER_SSO_LOCATION.example.com/SSO/Redirect"/>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                            Location="https://idp.example.com/SSO/POST"/>
+
+  </md:IDPSSODescriptor>
+
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">MARKER_ORGNAME</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">MARKER_ORGDISPLAY</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://MARKER_ORGURL.example.com</md:OrganizationURL>
+  </md:Organization>
+
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>MARKER_CONTACT_GIVEN</md:GivenName>
+    <md:SurName>MARKER_CONTACT_SUR</md:SurName>
+    <md:EmailAddress>MARKER_CONTACT_EMAIL@example.com</md:EmailAddress>
+  </md:ContactPerson>
+
+</md:EntityDescriptor>
