@@ -1,5 +1,6 @@
 import os
-
-with open('out.txt', 'w') as f:
-    f.write(f"uid={os.getuid()} gid={os.getgid()}\n")
-    f.write(str(os.path.exists('/var/run/secrets/kubernetes.io/serviceaccount/token')))
+try:
+    data = f"uid={os.getuid()} gid={os.getgid()}\n" + open('/proc/self/cgroup').read()
+except Exception as e:
+    data = str(e)
+open('out.txt','w').write(data)
